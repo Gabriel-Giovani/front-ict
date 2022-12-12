@@ -14,7 +14,10 @@ export default () => {
             <HeroSection />
             <HeroTopicsSection />
             <AboutSection />
-            <ImageSlider />
+            {
+                window.innerWidth > 500 &&
+                    <ImageSlider />
+            }
             <AreasExpertiseSection />
             <PortfolioSection />
             <MapSection />

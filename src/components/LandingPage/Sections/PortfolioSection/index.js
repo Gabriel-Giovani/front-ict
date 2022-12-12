@@ -28,7 +28,7 @@ export default () => {
     const [isAreasBoxVisible, setIsAreasBoxVisible] = useState(false);
 
     useEffect(() => {
-        if(window.innerWidth < 500) {
+        if(window.screen.width < 500 || window.innerWidth < 500) {
             setIsContainerVisible(true);
             setIsImageBoxVisible(true);
             setIsTextBoxVisible(true);

@@ -16,6 +16,10 @@ export const Container = styled.div`
         padding: 0;
     }
 
+    @media(max-width: 575px) {
+        display: none;
+    }
+
     & .swiper {
         max-width: 900px;
 

@@ -17,6 +17,7 @@ export default () => {
     const [isSocialLinksVisible, setIsSocialLinksVisible] = useState(false);
 
     useEffect(() => {
+        console.log(window.innerWidth);
         setIsTitleSectionVisible(true);
         setIsSocialLinksVisible(true);
     }, []);
@@ -54,10 +55,7 @@ export default () => {
                 </a>
             </SocialLinksList>
 
-            {
-                window.innerWidth > 500 &&
-                    <Wave />
-            }
+            <Wave />
         </Container>
     );
 };

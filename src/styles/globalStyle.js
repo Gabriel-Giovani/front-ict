@@ -12,14 +12,11 @@ const GlobalStyle = createGlobalStyle`
         font-size: 15px;
         overflow-x: hidden !important;
         height: 100%;
-
-        &.admin-body {
-            overflow-y: hidden;
-        }
     }
 
     html {
         height: 100%;
+        overflow-x: hidden !important;
         scroll-behavior: smooth;
     }
 

@@ -119,6 +119,6 @@ export const Wave = styled.div`
     background-image: url(${WaveImage});
 
     @media(max-width: 575px) {
-        bottom: 195px;
+        display: none;
     }
 `;

@@ -46,7 +46,7 @@ export default () => {
                 </Col>
                 <Col xxl={12} xl={12} lg={24}>
                     <ImageContainer>
-                        <img src={AboutBanner} />
+                        <img src={AboutBanner} className='w-100-mobile' />
                     </ImageContainer>
                 </Col>
 

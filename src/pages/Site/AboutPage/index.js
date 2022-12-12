@@ -332,7 +332,7 @@ export default () => {
                         Manipulação, Pesquisa e Desenvolvimento de Produtos Estéreis e Injetáveis, onde destacam-se:
                     </p>
                     <DescriptionImage className='margin-top'>
-                        <img src={TrioImage} />
+                        <img src={TrioImage} className='w-100-mobile' />
                     </DescriptionImage>
 
                     <h2 className='margin-top-20'>Arquitetura produtiva</h2>
@@ -367,7 +367,7 @@ export default () => {
                     </Row>
 
                     <DescriptionImage className='margin-top'>
-                        <img src={TrioImage2} />
+                        <img src={TrioImage2} className='w-100-mobile' />
                     </DescriptionImage>
 
                     <h2 className='margin-top-20'>LABORATÓRIOS DE PRODUTOS ESTÉREIS E INJETÁVEIS (Padrão Sala Limpa):</h2>
@@ -428,7 +428,7 @@ export default () => {
                     </Row>
 
                     <DescriptionImage className='margin-top'>
-                        <img src={TrioImage3} />
+                        <img src={TrioImage3} className='w-100-mobile' />
                     </DescriptionImage>
 
                     <h2 className='margin-top-20'>1 CENTRAL DE LAVAGEM E ESTERILIZAÇÃO (Padrão Sala Limpa):</h2>
@@ -478,7 +478,7 @@ export default () => {
                     </Row>
 
                     <DescriptionImage className='margin-top'>
-                        <img src={TrioImage4} />
+                        <img src={TrioImage4} className='w-100-mobile' />
                     </DescriptionImage>
 
                     <h2 className='margin-top-20'>1 LABORATÓRIO DE MICROBIOLOGIA (Padrão Sala Limpa):</h2>
@@ -494,7 +494,7 @@ export default () => {
                     </p>
 
                     <DescriptionImage className='margin-top'>
-                        <img src={TrioImage5} />
+                        <img src={TrioImage5} className='w-100-mobile' />
                     </DescriptionImage>
 
                     <h2 className='margin-top-20'>1 LABORATÓRIO FISICO-QUÍMICO:</h2>

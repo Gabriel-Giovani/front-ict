@@ -88,6 +88,12 @@ export const ImageContainer = styled.div`
         @media(max-width: 1199px) {
             top: 0;
         }
+
+        &.w-100-mobile {
+            @media(max-width: 991px) {
+                width: 100%;
+            }
+        }
     }
 
     @media(max-width: 1199px) {

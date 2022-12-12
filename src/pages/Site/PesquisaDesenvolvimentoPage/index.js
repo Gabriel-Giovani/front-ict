@@ -71,7 +71,7 @@ export default () => {
                     <SectionTitle>A importância por trás dos testes de bancada, em planta piloto e em planta industrial</SectionTitle>
 
                     <DescriptionImage>
-                        <img src={ImportanciaTestesImage} />
+                        <img src={ImportanciaTestesImage} className='w-100-mobile' />
                     </DescriptionImage>
 
                     <SectionDescription className='margin-top'>

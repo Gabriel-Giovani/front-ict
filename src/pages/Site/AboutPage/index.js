@@ -80,7 +80,7 @@ export default () => {
                         </Col>
                         <Col xxl={12} xl={24} lg={24} md={24} sm={24} xs={24}>
                             <DescriptionImage>
-                                <img src={InteligenciaTecnlogiaImage} />
+                                <img src={InteligenciaTecnlogiaImage} className='w-100-mobile' />
                             </DescriptionImage>
                         </Col>
                     </Row>
@@ -146,7 +146,7 @@ export default () => {
                     <Row gutter={24} style={{ marginBottom: '85px' }}>
                         <Col xxl={12} xl={24} lg={24} md={24} sm={24} xs={24}>
                             <DescriptionImage className='margin-bottom-mobile'>
-                                <img src={FacilitiesImage} />
+                                <img src={FacilitiesImage} className='w-100-mobile' />
                             </DescriptionImage>
                         </Col>
                         <Col xxl={12} xl={24} lg={24} md={24} sm={24} xs={24}>
@@ -304,7 +304,7 @@ export default () => {
                     <Row gutter={24}>
                         <Col xxl={12} xl={12} lg={24} md={24} sm={24} xs={24}>
                             <DescriptionImage>
-                                <img src={WaterImage} />
+                                <img src={WaterImage} className='w-100-mobile' />
                             </DescriptionImage>
                         </Col>
                         <Col xxl={12} xl={12} lg={24} md={24} sm={24} xs={24} className='inovation-col'>

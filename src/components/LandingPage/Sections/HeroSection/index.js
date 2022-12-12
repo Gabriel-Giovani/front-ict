@@ -17,7 +17,6 @@ export default () => {
     const [isSocialLinksVisible, setIsSocialLinksVisible] = useState(false);
 
     useEffect(() => {
-        console.log(window.innerWidth);
         setIsTitleSectionVisible(true);
         setIsSocialLinksVisible(true);
     }, []);

@@ -21,10 +21,6 @@ export function ScrollToTopProvider(props) {
         document.addEventListener('scroll', () => {
             setScrollToTopValue(document.documentElement.scrollTop);
         });
-
-        document.addEventListener('scroll', () => {
-            setScrollToTopValue(document.documentElement.scrollTop);
-        });
     }, []);
 
     return (

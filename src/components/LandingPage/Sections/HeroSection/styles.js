@@ -23,8 +23,9 @@ export const Container = styled.section`
         padding: 0 100px;
     }
 
-    @media(max-width: 575px) {
+    @media(max-width: 500px) {
         height: 80vh;
+        margin-top: 120px;
     }
 `;
 

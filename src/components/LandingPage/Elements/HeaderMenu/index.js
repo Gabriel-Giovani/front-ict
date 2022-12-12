@@ -26,7 +26,7 @@ export default () => {
     });
 
     function handleHeaderStyleWhenScroll() {
-        (scrollToTopValue > 120 || visibleMenuDropdown) ? setScrolled(true) : setScrolled(false);
+        (scrollToTopValue > 120 || visibleMenuDropdown || window.screen.width < 500) ? setScrolled(true) : setScrolled(false);
     }
 
     return (

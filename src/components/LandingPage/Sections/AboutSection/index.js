@@ -19,7 +19,10 @@ export default () => {
     const [isContainerVisible, setIsContainerVisible] = useState(false);
 
     useEffect(() => {
-        if(scrollToTopValue >= 700 && !isContainerVisible)
+        if(window.innerWidth < 500)
+            setIsContainerVisible(true);
+
+        else if(scrollToTopValue >= 700 && !isContainerVisible)
             setIsContainerVisible(true);
     });
 

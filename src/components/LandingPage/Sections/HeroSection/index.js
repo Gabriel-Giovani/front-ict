@@ -54,7 +54,10 @@ export default () => {
                 </a>
             </SocialLinksList>
 
-            <Wave />
+            {
+                window.innerWidth > 500 &&
+                    <Wave />
+            }
         </Container>
     );
 };

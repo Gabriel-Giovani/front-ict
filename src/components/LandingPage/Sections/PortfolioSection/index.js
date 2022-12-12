@@ -28,19 +28,28 @@ export default () => {
     const [isAreasBoxVisible, setIsAreasBoxVisible] = useState(false);
 
     useEffect(() => {
-        if(scrollToTopValue >= 2150 && !isContainerVisible)
+        if(window.innerWidth < 500) {
             setIsContainerVisible(true);
-
-        if(scrollToTopValue >= 2450) {
-            if(!isImageBoxVisible)
-                setIsImageBoxVisible(true);
-
-            if(!isTextBoxVisible)
-                setIsTextBoxVisible(true);
+            setIsImageBoxVisible(true);
+            setIsTextBoxVisible(true);
+            setIsAreasBoxVisible(true);
         }
 
-        if(scrollToTopValue >= 2450 && !isAreasBoxVisible)
-            setIsAreasBoxVisible(true);
+        else {
+            if(scrollToTopValue >= 2150 && !isContainerVisible)
+                setIsContainerVisible(true);
+    
+            if(scrollToTopValue >= 2450) {
+                if(!isImageBoxVisible)
+                    setIsImageBoxVisible(true);
+    
+                if(!isTextBoxVisible)
+                    setIsTextBoxVisible(true);
+            }
+    
+            if(scrollToTopValue >= 2450 && !isAreasBoxVisible)
+                setIsAreasBoxVisible(true);
+        }
     });
 
     return (

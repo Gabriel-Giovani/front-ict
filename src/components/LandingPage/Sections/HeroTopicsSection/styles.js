@@ -33,6 +33,10 @@ export const TopicsContainer = styled.div`
         position: relative;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
+
+    @media(max-width: 575px) {
+        border-radius: 0 0 25px 25px;
+    }
 `;
 
 export const TopicItem = styled.div`

@@ -18,8 +18,8 @@ export function ScrollToTopProvider(props) {
     const [scrollToTopValue, setScrollToTopValue] = useState(0);
 
     useEffect(() => {
-        document.addEventListener('scroll', () => {
-            setScrollToTopValue(document.documentElement.scrollTop);
+        document.body.addEventListener('scroll', () => {
+            setScrollToTopValue(document.body.scrollTop);
         });
     }, []);
 

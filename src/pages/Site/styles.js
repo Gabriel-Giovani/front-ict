@@ -393,6 +393,7 @@ export const ProfessionalBox = styled.div`
 
     & img {
         margin-bottom: 20px;
+        border-radius: 100%;
     }
 `;
 

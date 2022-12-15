@@ -46,9 +46,9 @@ import AreaFinalizacaoImage from '../../../assets/images/area-finalizacao-image.
 import DmlImage from '../../../assets/images/dml-image.png';
 import DocaImage from '../../../assets/images/doca-image.png';
 import VestiariosImage from '../../../assets/images/vestiarios-image.png';
-import ProfessionalExampleImage from '../../../assets/images/professional-example-image.png';
-import ProfessionalExampleImage2 from '../../../assets/images/professional-example-image-2.png';
-import ProfessionalExampleImage3 from '../../../assets/images/professional-example-image-3.png';
+import AiltonImage from '../../../assets/images/ailton-granja-image.png';
+import AlexandreImage from '../../../assets/images/alexandre-image.png';
+import RegianeImage from '../../../assets/images/regiane-image.png';
 import MapSection from '../../../components/LandingPage/Sections/MapSection';
 import ContactFormSection from '../../../components/LandingPage/Sections/ContactFormSection';
 
@@ -651,34 +651,37 @@ export default () => {
                     <Row gutter={24}>
                         <Col xxl={8} xl={8} lg={24} md={24} sm={24} xs={24}>
                             <ProfessionalBox>
-                                <img src={ProfessionalExampleImage} />
-                                <ProfessionalName>Fulano da Silva</ProfessionalName>
-                                <ProfessionalArea>Farmacêutico</ProfessionalArea>
+                                <img src={AiltonImage} />
+                                <ProfessionalName>Ailton Granja</ProfessionalName>
+                                <ProfessionalArea>Controle de Qualidade</ProfessionalArea>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                                    standard dummy text ever since the 1500s,  
+                                    Formado em Química (UFSCAR) com mestrado em Ciência dos Materiais (UNISO) ele é responsável 
+                                    pelo setor de Controle de Qualidade na ICT Farmacêutica. Com vasta experiência em gestão e 
+                                    controle de qualidade, auditoria e consultoria ele se torna a peça chave no setor de Qualidade. 
                                 </p>
                             </ProfessionalBox>
                         </Col>
                         <Col xxl={8} xl={8} lg={24} md={24} sm={24} xs={24}>
                             <ProfessionalBox>
-                                <img src={ProfessionalExampleImage2} />
-                                <ProfessionalName>Fulano da Silva</ProfessionalName>
-                                <ProfessionalArea>Farmacêutico</ProfessionalArea>
+                                <img src={AlexandreImage} />
+                                <ProfessionalName>Alexandre Winarski</ProfessionalName>
+                                <ProfessionalArea>Químico</ProfessionalArea>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                                    standard dummy text ever since the 1500s,  
+                                    Formado em Farmácia com Pós Graduação em Gestão Empresarial e Lean Six Sigma na Universidade Paulista - 
+                                    UNIP. Possui 24 anos de experiência com empresas farmacêuticas com foco em Desenvolvimento de Novos 
+                                    Produtos, Produção Industrial e Produção de Injetáveis. 
                                 </p>
                             </ProfessionalBox>
                         </Col>
                         <Col xxl={8} xl={8} lg={24} md={24} sm={24} xs={24}>
                             <ProfessionalBox>
-                                <img src={ProfessionalExampleImage3} />
-                                <ProfessionalName>Fulano da Silva</ProfessionalName>
-                                <ProfessionalArea>Farmacêutico</ProfessionalArea>
+                                <img src={RegianeImage} />
+                                <ProfessionalName>Regiane</ProfessionalName>
+                                <ProfessionalArea>Farmacêutica</ProfessionalArea>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                                    standard dummy text ever since the 1500s,  
+                                    Formada em Farmácia com pós-graduação em Produção Industrial Farmacêutica e Farmácia Clínica. Ampla experiência 
+                                    na área limpa, manipulação de produtos estéreis, Nutrição Parental e Farmácia Clínica Hospitalar. Já realizou 
+                                    acompanhamentos de visitas técnicas: Anvisa, CRF, ONA, ISO 9001.
                                 </p>
                             </ProfessionalBox>
                         </Col>

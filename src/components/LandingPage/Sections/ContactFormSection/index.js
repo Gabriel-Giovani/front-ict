@@ -45,11 +45,13 @@ export default () => {
                         <DetailName>Telefone</DetailName>
                         <DetailText>(15) 3321.9409</DetailText>
 
-                        <Button
-                            text='veja nosso portfolio'
-                            category='whatsapp'
-                            width='250px'
-                        />
+                        <a href="https://api.whatsapp.com/send?phone=5515981111314" target="_blank">
+                            <Button
+                                text='chame no whatsapp'
+                                category='whatsapp'
+                                width='250px'
+                            />
+                        </a>
 
                         <DetailName className='with-margin'>Trabalhe Conosco</DetailName>
                         <DetailText className='without-margin'>Envie seu currículo para o e-mail</DetailText>

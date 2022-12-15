@@ -70,12 +70,12 @@ export default () => {
                                 Por meio do desenvolvimento de soluções em um ambiente que inspira criatividade e tecnologia, o maior propósito do 
                                 ICT Farmacêutica se sustenta na entrega de inovações disruptivas. 
                             </Description>
-                            <a href="https://drive.google.com/file/d/1ta0Sh9oSm2oAzry2qJWMDohVHl9TlWBB/view?usp=share_link" target="_blank">
+                            {/* <a href="https://drive.google.com/file/d/1ta0Sh9oSm2oAzry2qJWMDohVHl9TlWBB/view?usp=share_link" target="_blank">
                                 <Button
                                     text='veja nosso portfólio' 
                                     category='primary'
                                 />
-                            </a>
+                            </a> */}
                         </TextContainer>
                     </Col>
                 </Row>

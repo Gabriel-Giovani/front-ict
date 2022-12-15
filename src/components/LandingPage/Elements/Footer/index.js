@@ -20,19 +20,19 @@ export default () => {
                 </Col>
                 <Col xxl={12} xl={12} lg={12} md={12} sm={12} xs={24}>
                     <SocialLinksContainer>
-                        <a href="#">
+                        <a href="https://www.instagram.com/ictfarmaceutica/" target='_blank'>
                             <SocialLinkItem>
                                 <FontAwesomeIcon icon={faInstagram} />
                             </SocialLinkItem>
                         </a>
 
-                        <a href="#">
+                        <a href="https://www.facebook.com/ictfarmaceutica" target='_blank'>
                             <SocialLinkItem>
                                 <FontAwesomeIcon icon={faFacebookF} />
                             </SocialLinkItem>
                         </a>
 
-                        <a href="#">
+                        <a href="#" target='_blank'>
                             <SocialLinkItem>
                                 <FontAwesomeIcon icon={faYoutube} />
                             </SocialLinkItem>

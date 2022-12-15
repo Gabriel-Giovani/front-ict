@@ -35,19 +35,19 @@ export default () => {
             </TitleSection>
 
             <SocialLinksList className={isSocialLinksVisible ? 'visible' : ''}>
-                <a href="#">
+                <a href="https://www.instagram.com/ictfarmaceutica/" target='_blank'>
                     <SocialLinkItem>
                         <FontAwesomeIcon icon={faInstagram} />
                     </SocialLinkItem>
                 </a>
                 
-                <a href="#">
+                <a href="https://www.facebook.com/ictfarmaceutica" target='_blank'>
                     <SocialLinkItem>
                         <FontAwesomeIcon icon={faFacebookF} />
                     </SocialLinkItem>
                 </a>
 
-                <a href="#">
+                <a href="#" target='_blank'>
                     <SocialLinkItem>
                         <FontAwesomeIcon icon={faYoutube} />
                     </SocialLinkItem>

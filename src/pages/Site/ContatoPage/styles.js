@@ -30,7 +30,7 @@ export const Select = styled.select`
     padding-left: 20px;
     border: 1px solid #C4C4C4;
     background-color: #F5F5F5;
-    color: #C4C4C4;
+    color: #000;
     text-transform: uppercase;
     font-size: 12px;
 `;
@@ -42,8 +42,40 @@ export const TextArea = styled.textarea`
     padding-top: 20px;
     border: 1px solid #C4C4C4;
     background-color: #E9E9E9;
-    color: #C4C4C4;
+    color: #000;
     font-size: 12px;
     position: relative;
     top: -12px;
+`;
+
+export const InputMaskContainer = styled.div`
+    & .input-mask {
+        width: 100%;
+        border-radius: 50px;
+        height: 40px;
+        padding-left: 20px;
+        border: 1px solid #C4C4C4;
+        background-color: #F5F5F5;
+        font-size: 12px;
+    }
+`;
+
+export const InputFileContainer = styled.div`
+    & input {
+        display: none;
+    }
+
+    & label {
+        width: 100%;
+        border-radius: 50px;
+        height: 40px;
+        padding: 5px 20px;
+        border: 1px solid #C4C4C4;
+        background-color: #F5F5F5;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
 `;

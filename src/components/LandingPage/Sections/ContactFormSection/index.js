@@ -65,6 +65,7 @@ export default () => {
         setButtonDisabled(true);
 
         const templateParams = {
+            from_subject: 'Mensagem "fale conosco"',
             from_name: name,
             from_email: email,
             from_phone: phone,

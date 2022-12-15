@@ -54,7 +54,7 @@ export default () => {
 
     return (
         <>
-            <Container className={isContainerVisible ? 'visible' : ''}>
+            <Container className={isContainerVisible ? 'visible' : ''} style={{ marginBottom: '40px' }}>
                 <Row gutter={24} className='portfolio-row'>
                     <Col xxl={12} xl={12} lg={24} md={24} sm={24} xs={24}>
                         <ImageContainer className={isImageBoxVisible ? 'visible' : ''}>
@@ -70,16 +70,19 @@ export default () => {
                                 Por meio do desenvolvimento de soluções em um ambiente que inspira criatividade e tecnologia, o maior propósito do 
                                 ICT Farmacêutica se sustenta na entrega de inovações disruptivas. 
                             </Description>
-                            <Button
-                                text='veja nosso portfólio'
-                                category='primary'
-                            />
+                            <a href="https://drive.google.com/file/d/1ta0Sh9oSm2oAzry2qJWMDohVHl9TlWBB/view?usp=share_link" target="_blank">
+                                <Button
+                                    text='veja nosso portfólio' 
+                                    category='primary'
+                                />
+                            </a>
                         </TextContainer>
                     </Col>
                 </Row>
             </Container>
 
-            <AreasContainer className={isAreasBoxVisible ? 'visible' : ''}>
+            {/* TODO - Descomentar quando houver áreas internas do site */}
+            {/* <AreasContainer className={isAreasBoxVisible ? 'visible' : ''}>
             <Box>
                 <Row gutter={24}>
                     <Col xxl={12} xl={12} lg={12} md={12} sm={24} xs={24} className='area-col'>
@@ -110,7 +113,7 @@ export default () => {
                     </Col>
                 </Row>
             </Box>
-            </AreasContainer>
+            </AreasContainer> */}
         </>
     );
 };

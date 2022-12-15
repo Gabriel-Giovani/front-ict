@@ -33,7 +33,7 @@ export default () => {
     return (
         <>
             <HeaderPages
-                title='Areas de Atuação'
+                title='Áreas de Atuação'
                 image={AreasAtuacaoHeaderImage}
             />
 

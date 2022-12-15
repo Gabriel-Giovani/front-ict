@@ -9,6 +9,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin-bottom: 300px;
     opacity: 0;
     transition: opacity 1.5s ease;
@@ -23,11 +24,12 @@ export const Container = styled.div`
 
     @media(max-width: 575px) {
         margin-bottom: 150px;
+        margin-top: 50px;
     }
 
     & img {
         position: absolute;
-        top: 300px;
+        top: 65%;
 
         @media(max-width: 991px) {
             width: 90%;

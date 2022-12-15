@@ -10,9 +10,13 @@ import {
     FormContainer,
     Input,
     TextArea,
+    InputMaskContainer
 } from './styles';
 import Button from '../../Elements/Button';
 import { useScrollToTop } from '../../../../contexts/ScrollToTopContext';
+import emailjs from '@emailjs/browser';
+import { message } from 'antd';
+import InputMask from 'react-input-mask';
 
 export default () => {
     const scrollToTop = useScrollToTop();
@@ -20,6 +24,13 @@ export default () => {
 
     const [isDetailsVisible, setIsDetailsVisible] = useState(true);
     const [isFormVisible, setIsFormVisible] = useState(true);
+
+    // Form states
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    const [fromMessage, setMessage] = useState('');
+    const [buttonDisabled, setButtonDisabled] = useState(false);
 
     // useEffect(() => {
     //     if(scrollToTopValue >= 3750) {
@@ -30,6 +41,47 @@ export default () => {
     //             setIsFormVisible(true);
     //     }
     // });
+
+    function resetForm() {
+        setName('');
+        setEmail('');
+        setPhone('');
+        setMessage('');
+    }
+
+    function submitForm(e) {
+        e.preventDefault();
+
+        if(
+            name === '' ||
+            email === '' ||
+            phone === '' ||
+            fromMessage === ''
+        ) {
+            message.error('Preencha os campos corretamente!');
+            return;
+        }
+
+        setButtonDisabled(true);
+
+        const templateParams = {
+            from_name: name,
+            from_email: email,
+            from_phone: phone,
+            message: fromMessage
+        };
+
+        emailjs.send('service_1v8ay9s', 'template_ce7akdo', templateParams, 'tkquNlcD4l4l5HmyH')
+        .then((response) => {
+            message.success('Mensagem enviada com sucesso. Lhe retornaremos em breve!');
+            resetForm();
+            setButtonDisabled(false);
+        })
+        .catch((error) => {
+            message.error('Houve um erro ao enviar sua mensagem. Tente novamente mais tarde!');
+            setButtonDisabled(false);
+        });
+    }
 
     return (
         <Container>
@@ -60,15 +112,47 @@ export default () => {
                 </Col>
                 <Col xxl={12} xl={12} lg={12} md={24} sm={24} xs={24}>
                     <FormContainer className={isDetailsVisible ? 'visible' : ''}>
-                        <form>
-                            <Input placeholder="Nome" />
-                            <Input placeholder="E-mail" type="email" />
-                            <Input placeholder="Telefone" />
-                            <TextArea placeholder="Mensagem" rows='8' />
+                        <form id="contactForm">
+                            <Input
+                                placeholder="Nome"
+                                name='name'
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                                required
+                            />
+                            <Input
+                                placeholder="E-mail"
+                                type="email"
+                                name='email'
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                                required
+                            />
+                            <InputMaskContainer>
+                                <InputMask
+                                    className='input-mask'
+                                    placeholder="Telefone"
+                                    name='phone'
+                                    mask='(99) 99999-9999'
+                                    value={phone}
+                                    onChange={(e) => setPhone(e.target.value)}
+                                    required
+                                />
+                            </InputMaskContainer>
+                            <TextArea
+                                placeholder="Mensagem"
+                                rows='8'
+                                name='message'
+                                value={fromMessage}
+                                onChange={(e) => setMessage(e.target.value)}
+                                required
+                            />
 
                             <Button
                                 text='enviar'
                                 category='primary'
+                                disabled={buttonDisabled}
+                                onClickFunction={submitForm}
                             />
                         </form>
                     </FormContainer>

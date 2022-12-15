@@ -131,3 +131,20 @@ export const TextArea = styled.textarea`
         width: 280px;
     }
 `;
+
+export const InputMaskContainer = styled.div`
+    & .input-mask {
+        height: 54px;
+        width: 415px;
+        border-radius: 5px;
+        padding: 15px;
+        border: none;
+        background-color: #E6E6E6;
+        color: #022842;
+        font-size: 14px;
+
+        @media(max-width: 575px) {
+            width: 280px;
+        }
+    }
+`;

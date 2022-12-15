@@ -50,10 +50,12 @@ export default () => {
                     </ImageContainer>
                 </Col>
 
-                <Button
-                    text='ver mais'
-                    category='primary'
-                />
+                <a href='/sobre'>
+                    <Button
+                        text='ver mais'
+                        category='primary'
+                    />
+                </a>
             </Row>
         </Container>
     );

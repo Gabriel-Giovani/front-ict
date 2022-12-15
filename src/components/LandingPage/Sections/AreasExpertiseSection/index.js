@@ -101,11 +101,13 @@ export default () => {
                 </Row>
             </AreasContainer>
 
-            <Button
-                text='Conheça todas as áreas'
-                category='primary'
-                width='264px'
-            />
+            <a href='/areas-atuacao'>
+                <Button
+                    text='Conheça todas as áreas'
+                    category='primary'
+                    width='264px'
+                />
+            </a>
         </Container>
     );
 };

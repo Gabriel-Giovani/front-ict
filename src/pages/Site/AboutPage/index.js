@@ -653,7 +653,7 @@ export default () => {
                             <ProfessionalBox>
                                 <img src={AiltonImage} />
                                 <ProfessionalName>Ailton Granja</ProfessionalName>
-                                <ProfessionalArea>Controle de Qualidade</ProfessionalArea>
+                                <ProfessionalArea>Químico</ProfessionalArea>
                                 <p>
                                     Formado em Química (UFSCAR) com mestrado em Ciência dos Materiais (UNISO) ele é responsável 
                                     pelo setor de Controle de Qualidade na ICT Farmacêutica. Com vasta experiência em gestão e 
@@ -664,8 +664,8 @@ export default () => {
                         <Col xxl={8} xl={8} lg={24} md={24} sm={24} xs={24}>
                             <ProfessionalBox>
                                 <img src={AlexandreImage} />
-                                <ProfessionalName>Alexandre Winarski</ProfessionalName>
-                                <ProfessionalArea>Químico</ProfessionalArea>
+                                <ProfessionalName>Dr. Alexandre Winarski</ProfessionalName>
+                                <ProfessionalArea>Farmacêutico</ProfessionalArea>
                                 <p>
                                     Formado em Farmácia com Pós Graduação em Gestão Empresarial e Lean Six Sigma na Universidade Paulista - 
                                     UNIP. Possui 24 anos de experiência com empresas farmacêuticas com foco em Desenvolvimento de Novos 
@@ -676,7 +676,7 @@ export default () => {
                         <Col xxl={8} xl={8} lg={24} md={24} sm={24} xs={24}>
                             <ProfessionalBox>
                                 <img src={RegianeImage} />
-                                <ProfessionalName>Regiane</ProfessionalName>
+                                <ProfessionalName>Dra. Regiane Santo</ProfessionalName>
                                 <ProfessionalArea>Farmacêutica</ProfessionalArea>
                                 <p>
                                     Formada em Farmácia com pós-graduação em Produção Industrial Farmacêutica e Farmácia Clínica. Ampla experiência 

@@ -28,10 +28,12 @@ export default () => {
                 <TitleDescription>
                     1º Laboratório de Pesquisa e Desenvolvimento em Plataforma Magistral
                 </TitleDescription>
-                <Button
-                    text='saiba mais'
-                    category='secondary'
-                />
+                <a href="/sobre">
+                    <Button
+                        text='saiba mais'
+                        category='secondary'
+                    />
+                </a>
             </TitleSection>
 
             <SocialLinksList className={isSocialLinksVisible ? 'visible' : ''}>

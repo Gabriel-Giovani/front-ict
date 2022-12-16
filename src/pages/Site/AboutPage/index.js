@@ -659,6 +659,8 @@ export default () => {
                                     pelo setor de Controle de Qualidade na ICT Farmacêutica. Com vasta experiência em gestão e 
                                     controle de qualidade, auditoria e consultoria ele se torna a peça chave no setor de Qualidade. 
                                 </p>
+
+                                <a href='/corpo-tecnico'>saiba mais</a>
                             </ProfessionalBox>
                         </Col>
                         <Col xxl={8} xl={8} lg={24} md={24} sm={24} xs={24}>
@@ -671,6 +673,8 @@ export default () => {
                                     UNIP. Possui 24 anos de experiência com empresas farmacêuticas com foco em Desenvolvimento de Novos 
                                     Produtos, Produção Industrial e Produção de Injetáveis. 
                                 </p>
+
+                                <a href='/corpo-tecnico'>saiba mais</a>
                             </ProfessionalBox>
                         </Col>
                         <Col xxl={8} xl={8} lg={24} md={24} sm={24} xs={24}>
@@ -683,6 +687,8 @@ export default () => {
                                     na área limpa, manipulação de produtos estéreis, Nutrição Parental e Farmácia Clínica Hospitalar. Já realizou 
                                     acompanhamentos de visitas técnicas: Anvisa, CRF, ONA, ISO 9001.
                                 </p>
+
+                                <a href='/corpo-tecnico'>saiba mais</a>
                             </ProfessionalBox>
                         </Col>
                     </Row>

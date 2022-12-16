@@ -395,6 +395,17 @@ export const ProfessionalBox = styled.div`
         margin-bottom: 20px;
         border-radius: 100%;
     }
+
+    & a {
+        color: #FFF;
+        font-size: 20px;
+        margin-top: 40px;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 `;
 
 export const ProfessionalName = styled.h6`

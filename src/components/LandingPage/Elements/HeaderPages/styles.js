@@ -13,6 +13,7 @@ export const Container = styled.div`
     margin-bottom: 300px;
     opacity: 0;
     transition: opacity 1.5s ease;
+    z-index: 2;
 
     &.visible {
         opacity: 1;
@@ -24,7 +25,7 @@ export const Container = styled.div`
 
     @media(max-width: 575px) {
         margin-bottom: 150px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     & img {

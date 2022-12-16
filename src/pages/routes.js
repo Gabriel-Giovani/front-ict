@@ -13,6 +13,7 @@ import ManipulacaoMagistralPage from './Site/ManipulacaoMagistralPage';
 import PesquisaDesenvolvimentoPage from './Site/PesquisaDesenvolvimentoPage';
 import AreasAtuacaoPage from './Site/AreasAtuacaoPage';
 import ContatoPage from './Site/ContatoPage';
+import CorpoTecnicoPage from './Site/CorpoTecnicoPage';
 
 // Contexts
 import { ScrollToTopProvider } from '../contexts/ScrollToTopContext';
@@ -25,6 +26,7 @@ const Routes = () => {
                     <HeaderMenu />
                     <Route exact path='/' component={HomeLandingPage} />
                     <Route exact path='/sobre' component={AboutPage} />
+                    <Route exact path='/corpo-tecnico' component={CorpoTecnicoPage} />
                     <Route exact path='/manipulacao-magistral' component={ManipulacaoMagistralPage} />
                     <Route exact path='/pesquisa-desenvolvimento' component={PesquisaDesenvolvimentoPage} />
                     <Route exact path='/areas-atuacao' component={AreasAtuacaoPage} />

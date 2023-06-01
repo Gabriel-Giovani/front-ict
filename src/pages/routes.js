@@ -12,6 +12,7 @@ import AboutPage from './Site/AboutPage';
 import ManipulacaoMagistralPage from './Site/ManipulacaoMagistralPage';
 import PesquisaDesenvolvimentoPage from './Site/PesquisaDesenvolvimentoPage';
 import AreasAtuacaoPage from './Site/AreasAtuacaoPage';
+import AtivosOftalmicosPages from './Site/AtivosOftalmicosPage';
 import ContatoPage from './Site/ContatoPage';
 import CorpoTecnicoPage from './Site/CorpoTecnicoPage';
 
@@ -30,6 +31,7 @@ const Routes = () => {
                     <Route exact path='/manipulacao-magistral' component={ManipulacaoMagistralPage} />
                     <Route exact path='/pesquisa-desenvolvimento' component={PesquisaDesenvolvimentoPage} />
                     <Route exact path='/areas-atuacao' component={AreasAtuacaoPage} />
+                    <Route exact path='/ativos-oftalmicos' component={AtivosOftalmicosPages} />
                     <Route exact path='/contato' component={ContatoPage} />
                     <Footer />
                 </ScrollToTopProvider>

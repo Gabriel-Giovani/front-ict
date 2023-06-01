@@ -40,6 +40,7 @@ export default () => {
                 <a href='/manipulacao-magistral'><Item>Manipulação Magistral</Item></a>
                 <a href='/pesquisa-desenvolvimento'><Item>Pesquisa e Desenvolvimento</Item></a>
                 <a href='/areas-atuacao'><Item>Áreas de Atuação</Item></a>
+                <a href='/ativos-oftalmicos'><Item>Ativos Oftálmicos</Item></a>
                 <a href='/contato'><Item>Contato</Item></a>
             </List>
 
@@ -60,6 +61,7 @@ export default () => {
                             <a href='/manipulacao-magistral'><Item>Manipulação Magistral</Item></a>
                             <a href='/pesquisa-desenvolvimento'><Item>Pesquisa e Desenvolvimento</Item></a>
                             <a href='/areas-atuacao'><Item>Áreas de Atuação</Item></a>
+                            <a href='/ativos-oftalmicos'><Item>Ativos Oftálmicos</Item></a>
                             <a href='/contato'><Item>Contato</Item></a>
                         </ListDropdown>
                     </MenuDropdown>

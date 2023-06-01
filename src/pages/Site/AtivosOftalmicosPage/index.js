@@ -47,13 +47,6 @@ export default () => {
                         <img src={LogoAtivoOftalmico} />
                     </ContainerLogoAtivoOftalmico>
 
-                    <Paragraph>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                        esse cillum dolore eu fugiat nulla pariatur.
-                    </Paragraph>
-
                     <InjetaveisSection>
                         <Row gutter={24}>
                             <Col xxl={12} xl={12} lg={12} md={12} sm={24} xs={24}>
@@ -88,15 +81,9 @@ export default () => {
                         </div>
                     </UsoTopicoSection>
 
-                    <Paragraph style={{ textAlign: 'center' }}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                        esse cillum dolore eu fugiat nulla pariatur.
-                    </Paragraph>
-
                     <a
-                        href="#"
+                        href="https://api.whatsapp.com/send?phone=5515981111314"
+                        target='_blank'
                         style={{
                             display: 'flex',
                             alignItems: 'center',

@@ -88,7 +88,8 @@ export default () => {
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
-                            marginTop: '60px'
+                            marginTop: '60px',
+                            marginBottom: '-130px'
                         }}
                     >
                         <Button

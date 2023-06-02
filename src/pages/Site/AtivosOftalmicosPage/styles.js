@@ -34,8 +34,6 @@ export const Container = styled.section`
 `;
 
 export const PageTitle = styled.div`
-    margin-bottom: 80px;
-
     @media(min-width: 1460px) {
         margin-top: 200px;
     }
@@ -85,7 +83,7 @@ export const Paragraph = styled.p`
 `;
 
 export const InjetaveisSection = styled.div`
-    margin-top: 30px;
+    margin-top: -80px;
 
     .ant-col {
         display: flex;
@@ -110,8 +108,6 @@ export const InjetaveisSection = styled.div`
 `;
 
 export const UsoTopicoSection = styled.div`
-    margin-top: 30px;
-
     .row-desktop {
         display: block;
     }

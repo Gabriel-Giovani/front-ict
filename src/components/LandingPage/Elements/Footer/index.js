@@ -15,10 +15,17 @@ export default () => {
     return (
         <Container>
             <Row gutter={23}>
-                <Col xxl={12} xl={12} lg={12} md={12} sm={12} xs={24} className='justify-start logo-col'>
+                <Col xxl={8} xl={8} lg={8} md={8} sm={8} xs={24} className='justify-start logo-col'>
                     <img src={Logo} />
                 </Col>
-                <Col xxl={12} xl={12} lg={12} md={12} sm={12} xs={24}>
+                <Col xxl={8} xl={8} lg={8} md={8} sm={8} xs={24} className='justify-start logo-col'
+                    style={{ color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', textAlign: 'center' }}
+                >
+                    <p>Av. Ireno da Silva Venâncio, 199 - Protestantes</p>
+                    <p>Votorantim - SP</p>
+                    <p>CNPJ: 41.604.536/0001-01 - ICT FARMACÊUTICA LTDA</p>
+                </Col>
+                <Col xxl={8} xl={8} lg={8} md={8} sm={8} xs={24}>
                     <SocialLinksContainer>
                         <a href="https://www.instagram.com/ictfarmaceutica/" target='_blank'>
                             <SocialLinkItem>
